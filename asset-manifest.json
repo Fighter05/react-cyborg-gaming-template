@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-cyborg-gaming-template/static/css/main.f429463b.css",
+    "main.js": "/react-cyborg-gaming-template/static/js/main.9995000a.js",
+    "index.html": "/react-cyborg-gaming-template/index.html",
+    "main.f429463b.css.map": "/react-cyborg-gaming-template/static/css/main.f429463b.css.map",
+    "main.9995000a.js.map": "/react-cyborg-gaming-template/static/js/main.9995000a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f429463b.css",
+    "static/js/main.9995000a.js"
+  ]
+}

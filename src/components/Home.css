@@ -1,5 +1,166 @@
-.home{
-    padding: 0 7%;
+.home-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 530px;
+    background-image: url(./assets/images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.home-banner p {
+    font-size: 1.25rem;
+}
+
+.home-banner p:nth-child(2) {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    margin: 20px 0;
+}
+
+.pink-btn{
+    background-color: var(--color-pink);
+    padding: 10px 25px;
+}
+
+.pink-btn:hover{
+    background-color: var(--color-white);
+    color: var(--color-pink);
+}
+
+/* Popular Box------------------------- */
+.home-popular{
     background-color: var(--color-black);
+    border-radius: 20px;
+    padding: 30px 25px;
+    padding-bottom: 60px;
     height: auto;
 }
+
+.pink-btn-box{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+.home-popular p{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-pink);
+}
+
+.home-popular span{
+    color: var(--color-white);
+    text-decoration: underline;
+}
+
+.home-popular-grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.home-game-popular{
+    border-radius: 20px;
+    background-color: var(--color-gray);
+    padding: 30px 15px;
+    width: auto;
+}
+
+.home-game-popular img{
+    border-radius: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.home-popular-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-popular-flex p{
+    color: var(--color-white);
+    font-size: 1rem;
+}
+
+.home-popular-flex:nth-child(3) p{
+    font-weight: 300;
+}
+
+.home-icon-flex{
+    display: flex;
+}
+
+.home-icon-flex p{
+    color: var(--color-white);
+    font-weight: 300;
+    padding-left: 5px;
+}
+
+.home-icon-flex i{
+    margin-top: 2px;
+}
+
+/* Home library------------------------------------ */
+.home-game-data{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.home-game-data img{
+    border-radius: 20px;
+    margin-right: 3%;
+}
+
+.home-game-data button{
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.home-game-data:nth-child(odd) button{
+    background-color: var(--color-black);
+    border: solid 1px var(--color-pink);
+    color: var(--color-pink);
+}
+
+.home-game-data:nth-child(odd) button:hover{
+    background-color: var(--color-white);
+    border: solid 1px var(--color-white);
+    color: var(--color-pink);
+}
+
+.home-game-data:nth-child(even) button{
+    background-color: var(--color-black);
+    border: solid 1px var(--color-lightgray);
+    color: var(--color-lightgray);
+}
+
+.home-game-data button{
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.home-game-title{
+    margin-right: 10%;
+}
+
+.home-game-title p:nth-child(1){
+    color: var(--color-white);
+    font-size: 1rem;
+}
+
+.home-game-title p:nth-child(2){
+    color: var(--color-lightgray);
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+

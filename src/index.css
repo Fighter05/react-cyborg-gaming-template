@@ -18,15 +18,24 @@
   padding: 0;
 }
 
-.home, .browse, .details, .streams, .profile{
-  display: flex;
-  justify-content: center;
-  background-color: var(--color-black);
-}
+@layer components {
+  .pink-btn {
+    background-color: var(--color-pink);
+    padding: 10px 25px;
+    border-radius: 24px;
+    transition: .3s ease-in-out;
+  }
 
-.container{
-  background-color: var(--color-gray);
-  color: var(--color-white);
-  border-radius: 20px;
-  padding: 50px;
+  .pink-btn:hover{
+    background-color: var(--color-white);
+    color: var(--color-pink);
+  }
+
+  .container{
+    background-color: var(--color-gray);
+    padding: 48px;
+    color: var(--color-white);
+    width: 100%;
+    border-radius: 24px;
+  }
 }

@@ -12,6 +12,8 @@ module.exports = {
       },
       backgroundImage: {
         'home-banner': "url('./components/assets/images/banner-bg.jpg')",
+        'fortnite-right': "url('./components/assets/images/feature-right.jpg')",
+
       }
 
     },

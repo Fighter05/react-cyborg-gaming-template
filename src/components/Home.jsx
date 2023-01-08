@@ -161,69 +161,82 @@ const Home = () => {
         {/* ------------------------------------------------------------------------ */}
         <div className="bg-black rounded-3xl py-8 px-7 pb-16">
             <p className='text-3xl font-bold text-pink mb-8'><span className='text-white underline'>Your Gaming</span> Library</p>
-          <div className="flex justify-start items-center pb-6 border-b border-solid border-lightgray/25">
-            <img className='rounded-3xl mr-10' src={game01} alt="" />
-            <div className="mr-10 lg:mr-20">
-              <p className='font-bold'>Dota 2</p>
-              <p className='text-lightgray'>Sandbox</p>
+          <div className="flex justify-between items-center pb-6 border-b border-solid border-lightgray/25">
+            <div className='flex items-center'>
+              <img className='rounded-3xl mr-5' src={game01} alt="" />
+              <div>
+                <p className='font-bold'>Dota 2</p>
+                <p className='text-lightgray'>Sandbox</p>
+              </div>
             </div>
-            <div className="mr-10 lg:mr-20">
+            <div>
               <p className='font-bold'>Date Added</p>
               <p className='text-lightgray'>24/08/2036</p>
             </div>
-            <div className="mr-10 lg:mr-20">
+            <div>
               <p className='font-bold'>Hours Played</p>
               <p className='text-lightgray'>634 H 22 Mins</p>
             </div>
-            <div className="mr-10 lg:mr-20">
+            <div>
               <p className='font-bold'>Currently</p>
               <p className='text-lightgray'>Downloaded</p>
             </div>
-            <button className='ml-auto mr-9 text-lightgray border-2 
-            border-solid border-lightgray px-6 py-2 rounded-3xl'>Downloaded</button>
+            <div className='mr-9'>
+              <button className=' text-lightgray border-2 
+              border-solid border-lightgray px-6 py-2 rounded-3xl'>Downloaded</button>
+            </div>
           </div>
-          <div className="flex justify-start items-center py-6 border-b border-solid border-lightgray/25">
-            <img className='rounded-3xl mr-10' src={game01} alt="" />
-            <div className="mr-20">
-              <p className='font-bold'>Dota 2</p>
-              <p className='text-lightgray'>Sandbox</p>
+          <div className="flex justify-between items-center py-6 border-b border-solid border-lightgray/25">
+            <div className='flex items-center'>
+              <img className='rounded-3xl mr-5' src={game01} alt="" />
+              <div>
+                <p className='font-bold'>Dota 2</p>
+                <p className='text-lightgray'>Sandbox</p>
+              </div>
             </div>
-            <div className="mr-20">
+            <div>
               <p className='font-bold'>Date Added</p>
               <p className='text-lightgray'>24/08/2036</p>
             </div>
-            <div className="mr-20">
+            <div>
               <p className='font-bold'>Hours Played</p>
               <p className='text-lightgray'>634 H 22 Mins</p>
             </div>
-            <div className="mr-20">
+            <div>
               <p className='font-bold'>Currently</p>
               <p className='text-lightgray'>Downloaded</p>
             </div>
-            <button className='ml-auto mr-9 text-pink border-2 
-            border-solid border-pink px-6 py-2 rounded-3xl transition ease-in-out duration-300
-            hover:bg-white hover:border-white'>Download</button>
+            <div className='mr-9'>
+              <button className=' text-pink border-2 
+              border-solid border-pink px-6 py-2 rounded-3xl transition ease-in-out duration-300
+              hover:bg-white hover:border-white'>Download</button>
+            </div>
           </div>
-          <div className="flex justify-start items-center py-6 border-b border-solid border-lightgray/25">
-            <img className='rounded-3xl mr-10' src={game01} alt="" />
-            <div className="mr-20">
-              <p className='font-bold'>Dota 2</p>
-              <p className='text-lightgray'>Sandbox</p>
+            
+          <div className="flex justify-between items-center py-6 border-b border-solid border-lightgray/25">
+            <div className='flex items-center'>
+              <img className='rounded-3xl mr-5' src={game01} alt="" />
+              <div>
+                <p className='font-bold'>Dota 2</p>
+                <p className='text-lightgray'>Sandbox</p>
+              </div>
             </div>
-            <div className="mr-20">
+            <div>
               <p className='font-bold'>Date Added</p>
               <p className='text-lightgray'>24/08/2036</p>
             </div>
-            <div className="mr-20">
+            <div>
               <p className='font-bold'>Hours Played</p>
               <p className='text-lightgray'>634 H 22 Mins</p>
             </div>
-            <div className="mr-20">
+            <div>
               <p className='font-bold'>Currently</p>
               <p className='text-lightgray'>Downloaded</p>
             </div>
-            <button className='ml-auto mr-9 text-lightgray border-2 
-            border-solid border-lightgray px-6 py-2 rounded-3xl'>Downloaded</button>
+            <div className='mr-9'>
+              <button className=' text-lightgray border-2 
+              border-solid border-lightgray px-6 py-2 rounded-3xl'>Downloaded</button>
+            </div>
           </div>
         </div>
         <div className='flex justify-center -mt-7 mb-10'>

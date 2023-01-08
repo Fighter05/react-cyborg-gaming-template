@@ -1,6 +1,7 @@
 import React from 'react'
 import popular01 from './assets/images/popular-01.jpg'
 import game01 from './assets/images/game-01.jpg'
+import {Link} from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -239,9 +240,11 @@ const Home = () => {
             </div>
           </div>
         </div>
+          <Link to ="/profile">
         <div className='flex justify-center -mt-7 mb-10'>
-          <button className="pink-btn">View Your Library</button>
+            <button className="pink-btn">View Your Library</button>
         </div>
+          </Link>
       </div>
     </div>
   )

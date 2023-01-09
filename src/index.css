@@ -31,11 +31,20 @@
     color: var(--color-pink);
   }
 
-  .container{
-    background-color: var(--color-gray);
-    padding: 48px;
-    color: var(--color-white);
-    width: 100%;
-    border-radius: 24px;
+  .wrapper{
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .wrapper::-webkit-scrollbar{
+    /* width: 0; */
+    display: none;
+  }
+
+  .wrapper .items{
+    min-width: 205px;
+    margin-right: 25px;
+    color: white;
+    background-color: var(--color-black);
   }
 }

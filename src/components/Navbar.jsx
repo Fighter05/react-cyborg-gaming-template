@@ -1,7 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import profile from './assets/images/profile-header.jpg';
 import logo from './assets/images/logo.png';
 
@@ -15,33 +14,35 @@ const Navbar = () => {
         <NavLink className="mr-auto" to="/">
             <img src={logo} alt="" />
         </NavLink>
-        {/* <div className= "mr-auto">
+        <div className= "hidden lg:relative mr-auto">
           <input className='relative py-2 pl-10 bg-gray rounded-3xl placeholder:text-lightgray' type="text" placeholder='Type Something' />
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </div> */}
+          <div className='absolute top-2 left-4'>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
         <ul className='hidden lg:flex'>
           <li className='transition ease-in-out duration-300 hover:text-pink pr-10'>
-            <NavLink to="/">
+            <NavLink to="react-cyborg-gaming-template/">
               Home
             </NavLink>
           </li>
           <li className='transition ease-in-out duration-300 hover:text-pink pr-10'>
-            <Link to="/browse">
+            <Link to="react-cyborg-gaming-template/browse">
               Browse
             </Link>
           </li>
           <li className='transition ease-in-out duration-300 hover:text-pink pr-10'>
-            <NavLink to="/details">
+            <NavLink to="react-cyborg-gaming-template/details">
               Details
             </NavLink>
           </li>
           <li className='transition ease-in-out duration-300 hover:text-pink pr-10'>
-            <NavLink to="/streams">
+            <NavLink to="react-cyborg-gaming-template/streams">
               Streams
             </NavLink>
           </li>
         </ul>
-            <NavLink to="/profile">
+            <NavLink to="react-cyborg-gaming-template/profile">
                 <button className='transition ease-in-out duration-300 hidden lg:flex items-center gap-2 bg-gray p-2 pl-5 rounded-3xl
                 hover:text-white hover:bg-pink'>
                     Profile

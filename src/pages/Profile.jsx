@@ -1,8 +1,7 @@
 import React from 'react'
-import game01 from './assets/images/game-01.jpg'
-import profile from './assets/images/profile.jpg'
+import game01 from '../components/assets/images/game-01.jpg'
+import profile from '../components/assets/images/profile.jpg'
 // border-2 border-solid border-red-600
-
 
 const Profile = () => {
   return (

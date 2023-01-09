@@ -1,6 +1,6 @@
 import React from 'react'
-import popular01 from './assets/images/popular-01.jpg'
-import game01 from './assets/images/game-01.jpg'
+import popular01 from '../components/assets/images/popular-01.jpg'
+import game01 from '../components/assets/images/game-01.jpg'
 import {Link} from 'react-router-dom'
 
 const Home = () => {
@@ -251,3 +251,4 @@ const Home = () => {
 }
 
 export default Home
+export { default as Home } from "./Home";

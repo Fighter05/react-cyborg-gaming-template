@@ -1,7 +1,7 @@
 import React from 'react'
-import fortniteLeft from './assets/images/feature-left.jpg'
-import detail01 from './assets/images/details-01.jpg'
-import game01 from './assets/images/game-01.jpg'
+import fortniteLeft from '../components/assets/images/feature-left.jpg'
+import detail01 from '../components/assets/images/details-01.jpg'
+import game01 from '../components/assets/images/game-01.jpg'
 
 
 // border-2 border-solid border-red-600

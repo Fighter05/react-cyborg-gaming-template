@@ -2,25 +2,24 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Navbar,Footer } from "./components";
 import {
-  Navbar,
-  Footer,
   Home,
   Browse,
   Details,
   Streams,
   Profile
-} from "./components";
+} from "./pages";
 
 ReactDOM.render(
   <Router>
     <Navbar />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/browse" element={<Browse />} />
-      <Route path="/details" element={<Details />} />
-      <Route path="/streams" element={<Streams />} />
-      <Route path="/profile" element={<Profile />} />
+      <Route index path="react-cyborg-gaming-template/" element={<Home />} />
+      <Route path="react-cyborg-gaming-template/browse" element={<Browse />} />
+      <Route path="react-cyborg-gaming-template/details" element={<Details />} />
+      <Route path="react-cyborg-gaming-template/streams" element={<Streams />} />
+      <Route path="react-cyborg-gaming-template/profile" element={<Profile />} />
     </Routes>
     <Footer />
   </Router>,

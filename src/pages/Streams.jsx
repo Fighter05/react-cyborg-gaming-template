@@ -1,5 +1,8 @@
 import React from 'react'
 import featured01 from '../components/assets/images/featured-01.jpg'
+import avatar01 from '../components/assets/images/avatar-01.jpg'
+import stream01 from '../components/assets/images/stream-01.jpg'
+// border-2 border-solid border-red-600
 
 const Streams = () => {
   return (
@@ -95,8 +98,170 @@ const Streams = () => {
           </div>
           <div className="bg-black rounded-3xl py-8 px-7">
             <p className='text-3xl font-bold text-pink mb-8'><span className='text-white underline'>Top</span> Streamers</p>
-                   
+            <div className='flex items-center justify-between border-b border-solid border-lightgray/25 pb-5'>
+              <p className='font-bold'>01</p>
+              <img className="rounded-full" src={avatar01} alt="" />
+              <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+              <p className='text-pink'>LahutaM</p>
+              <button className='pink-btn'>follow</button>
+            </div>
+            <div className='flex items-center justify-between border-b border-solid border-lightgray/25 py-5'>
+              <p className='font-bold'>02</p>
+              <img className="rounded-full" src={avatar01} alt="" />
+              <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+              <p className='text-pink'>LahutaM</p>
+              <button className='pink-btn'>follow</button>
+            </div>
+            <div className='flex items-center justify-between border-b border-solid border-lightgray/25 py-5'>
+              <p className='font-bold'>03</p>
+              <img className="rounded-full" src={avatar01} alt="" />
+              <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+              <p className='text-pink'>LahutaM</p>
+              <button className='pink-btn'>follow</button>
+            </div>
+            <div className='flex items-center justify-between border-b border-solid border-lightgray/25 py-5'>
+              <p className='font-bold'>04</p>
+              <img className="rounded-full" src={avatar01} alt="" />
+              <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+              <p className='text-pink'>LahutaM</p>
+              <button className='pink-btn'>follow</button>
+            </div>
+            <div className='flex items-center justify-between pt-5'>
+              <p className='font-bold'>05</p>
+              <img className="rounded-full" src={avatar01} alt="" />
+              <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+              <p className='text-pink'>LahutaM</p>
+              <button className='pink-btn'>follow</button>
+            </div>
           </div>
+        </div>
+        <div className="bg-black rounded-3xl mt-10 py-7 px-7 pb-10">
+          <p className='text-3xl font-bold text-pink mb-8'><span className='text-white underline'>Most Popular</span> Live Stream</p>
+          <div className='grid grid-cols-4 gap-6'>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='text-center -mt-4'>
+          <button className='pink-btn'>Load More Streams</button>
         </div>
       </div>
     </div>

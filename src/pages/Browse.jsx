@@ -1,6 +1,9 @@
 import React from 'react'
 import featured01 from '../components/assets/images/featured-01.jpg'
 import game01 from '../components/assets/images/game-01.jpg'
+import stream01 from '../components/assets/images/stream-01.jpg'
+import avatar01 from '../components/assets/images/avatar-01.jpg'
+// border-2 border-solid border-red-600
 
 const Browse = () => {
   return (
@@ -163,6 +166,101 @@ const Browse = () => {
                 <p className='text-pink font-bold text-center mt-4 cursor-pointer'>View All Games</p>
             </div>
           </div>
+        </div>
+        <p className='text-center text-3xl font-bold text-pink my-10'><span className='text-white underline'>How To Start Your</span> Live Stream</p>
+        <div className='grid grid-cols-3 gap-6'>
+          <div className='border border-solid border-lightgray/50 rounded-3xl p-6'>
+            <button className='py-3 px-3 bg-white rounded-full'>
+              <i style={{color: 'var(--color-pink)', fontSize: '2rem'}} class="fa-solid fa-headset"></i>
+            </button>
+            <p className='font-bold my-4 text-xl'>Go To Your Profile</p>
+            <p className='text-lightgray leading-7'>Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout.</p>
+          </div>
+          <div className='border border-solid border-lightgray/50 rounded-3xl p-6'>
+            <button className='py-3 px-3 bg-white rounded-full'>
+              <i style={{color: 'var(--color-pink)', fontSize: '2rem'}} class="fa-solid fa-headset"></i>
+            </button>
+            <p className='font-bold my-4 text-xl'>Go To Your Profile</p>
+            <p className='text-lightgray leading-7'>Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout.</p>
+          </div>
+          <div className='border border-solid border-lightgray/50 rounded-3xl p-6'>
+            <button className='py-3 px-3 bg-white rounded-full'>
+              <i style={{color: 'var(--color-pink)', fontSize: '2rem'}} class="fa-solid fa-headset"></i>
+            </button>
+            <p className='font-bold my-4 text-xl'>Go To Your Profile</p>
+            <p className='text-lightgray leading-7'>Cyborg Gaming is free HTML CSS website template provided by TemplateMo. This is Bootstrap v5.2.0 layout.</p>
+          </div>
+        </div>
+        <div className='text-center my-8'>
+          <button className='pink-btn'>Go To Profile</button>
+        </div>
+        <div className="bg-black rounded-3xl py-7 px-7 pb-10">
+          <p className='text-3xl font-bold text-pink mb-8'><span className='text-white underline'>Most Popular</span> Live Stream</p>
+          <div className='grid grid-cols-4 gap-6'>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img className='rounded-3xl mb-4' src={stream01} alt="" />
+              <div className='flex gap-2'>
+                <div>
+                  <img className='rounded-full' src={avatar01} alt="" />
+                </div>
+                <div>
+                  <div className='flex items-center gap-2'>
+                    <i style={{color: 'var(--color-pink)'}} class="fa-solid fa-circle-check"></i>
+                    <p className='text-pink'>KenganC</p>
+                  </div>
+                  <p className='font-bold text-xl'>Just Talking With Fans</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='text-center -mt-4'>
+          <button className='pink-btn'>Discover All Streams</button>
         </div>
       </div>
     </div>

@@ -18,6 +18,10 @@
   padding: 0;
 }
 
+nav a.active{
+  color: var(--color-pink);
+}
+
 @layer components {
   .pink-btn {
     background-color: var(--color-pink);

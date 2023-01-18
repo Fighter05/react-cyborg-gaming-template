@@ -1,12 +1,17 @@
 import React from 'react'
 import { useState } from 'react';
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import profile from './assets/images/profile-header.jpg';
 import logo from './assets/images/logo.png';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
+    const navLinkStyles = ({ isActive }) => {
+      return {
+        color: isActive ? 'var(--color-white)' : 'var(--color-lightgray)'
+      }
+    }
 
   return (
     <div>
@@ -27,9 +32,9 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className='transition ease-in-out duration-300 hover:text-pink pr-10'>
-            <Link to="react-cyborg-gaming-template/browse">
+            <NavLink to="react-cyborg-gaming-template/browse">
               Browse
-            </Link>
+            </NavLink>
           </li>
           <li className='transition ease-in-out duration-300 hover:text-pink pr-10'>
             <NavLink to="react-cyborg-gaming-template/details">
@@ -42,7 +47,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-            <NavLink to="react-cyborg-gaming-template/profile">
+            <NavLink style={navLinkStyles} to="react-cyborg-gaming-template/profile">
                 <button className='transition ease-in-out duration-300 hidden lg:flex items-center gap-2 bg-gray p-2 pl-5 rounded-3xl
                 hover:text-white hover:bg-pink'>
                     Profile
@@ -66,40 +71,40 @@ const Navbar = () => {
       >
         <div className='border-b-2 border-lightgray/25 border-solid w-full text-center'>
             <li className='py-6 text-2xl transition ease-in-out text-black hover:font-bold hover:text-pink'>
-            <Link onClick={handleClick} to='/'>
+            <NavLink onClick={handleClick} to='/'>
                 Home
-            </Link>
+            </NavLink>
             </li>
         </div>
         <div className='border-b-2 border-lightgray/25 border-solid w-full text-center'>
             <li className='py-6 text-2xl transition ease-in-out text-black hover:font-bold hover:text-pink'>
           {' '}
-          <Link onClick={handleClick} to='/browse'>
+          <NavLink onClick={handleClick} to='/browse'>
             Browse
-          </Link>
+          </NavLink>
         </li>
         </div>
         <div className='border-b-2 border-lightgray/25 border-solid w-full text-center'>
             <li className='py-6 text-2xl transition ease-in-out text-black hover:font-bold hover:text-pink'>
           {' '}
-          <Link onClick={handleClick} to='/details'>
+          <NavLink onClick={handleClick} to='/details'>
             Details
-          </Link>
+          </NavLink>
         </li>
         </div>
         <div className='border-b-2 border-lightgray/25 border-solid w-full text-center'>
             <li className='py-6 text-2xl transition ease-in-out text-black hover:font-bold hover:text-pink'>
           {' '}
-          <Link onClick={handleClick} to='/streams'>
+          <NavLink onClick={handleClick} to='/streams'>
             Streams
-          </Link>
+          </NavLink>
         </li> 
         </div>
         <li className='py-6 text-2xl transition ease-in-out text-black hover:font-bold hover:text-pink'>
           {' '}
-          <Link onClick={handleClick} to='/profile'>
+          <NavLink onClick={handleClick} to='/profile'>
             Profile
-          </Link>
+          </NavLink>
         </li>
       </ul>
       </nav>

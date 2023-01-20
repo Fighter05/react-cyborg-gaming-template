@@ -1,17 +1,17 @@
 import React from 'react'
 import { useState } from 'react';
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import profile from './assets/images/profile-header.jpg';
 import logo from './assets/images/logo.png';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav);
-    const navLinkStyles = ({ isActive }) => {
-      return {
-        color: isActive ? 'var(--color-white)' : 'var(--color-lightgray)'
-      }
-    }
+    // const navLinkStyles = ({ isActive }) => {
+    //   return {
+    //     color: isActive ? 'var(--color-white)' : 'var(--color-lightgray)'
+    //   }
+    // }
 
   return (
     <div>
@@ -47,7 +47,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-            <NavLink style={navLinkStyles} to="react-cyborg-gaming-template/profile">
+            <NavLink to="react-cyborg-gaming-template/profile">
                 <button className='transition ease-in-out duration-300 hidden lg:flex items-center gap-2 bg-gray p-2 pl-5 rounded-3xl
                 hover:text-white hover:bg-pink'>
                     Profile

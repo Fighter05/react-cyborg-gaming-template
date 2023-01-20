@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/react-cyborg-gaming-template/static/css/main.f429463b.css",
-    "main.js": "/react-cyborg-gaming-template/static/js/main.9995000a.js",
-    "index.html": "/react-cyborg-gaming-template/index.html",
-    "main.f429463b.css.map": "/react-cyborg-gaming-template/static/css/main.f429463b.css.map",
-    "main.9995000a.js.map": "/react-cyborg-gaming-template/static/js/main.9995000a.js.map"
+    "main.css": "/static/css/main.9a0a46b5.css",
+    "main.js": "/static/js/main.97a0ed86.js",
+    "static/media/feature-right.jpg": "/static/media/feature-right.01ad26795580300e2029.jpg",
+    "static/media/feature-left.jpg": "/static/media/feature-left.2e7e18e857172344a46d.jpg",
+    "static/media/details-01.jpg": "/static/media/details-01.512d609b582f424c56d4.jpg",
+    "static/media/profile.jpg": "/static/media/profile.7e220d8a749ff31feac9.jpg",
+    "static/media/banner-bg.jpg": "/static/media/banner-bg.f41cb78948354a14694e.jpg",
+    "static/media/featured-01.jpg": "/static/media/featured-01.b180f723012eb23f2e61.jpg",
+    "static/media/clip-01.jpg": "/static/media/clip-01.42331eaf604300282321.jpg",
+    "static/media/stream-01.jpg": "/static/media/stream-01.36584b59614930e69acd.jpg",
+    "static/media/popular-01.jpg": "/static/media/popular-01.d591ee7091c3349e3472.jpg",
+    "index.html": "/index.html",
+    "main.9a0a46b5.css.map": "/static/css/main.9a0a46b5.css.map",
+    "main.97a0ed86.js.map": "/static/js/main.97a0ed86.js.map"
   },
   "entrypoints": [
-    "static/css/main.f429463b.css",
-    "static/js/main.9995000a.js"
+    "static/css/main.9a0a46b5.css",
+    "static/js/main.97a0ed86.js"
   ]
 }
